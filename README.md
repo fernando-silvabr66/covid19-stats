@@ -1,2 +1,2 @@
 # list-metrics
-Capstone Project - React/Dedux - Module 4 - Week 5
+Capstone Project - React/Redux - Module 4 - Week 5
