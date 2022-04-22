@@ -5,7 +5,15 @@ Covid19-Stats
 
 This is a React/Redux capstone project build as a mobile web application to check a list of metrics (numeric values) through an API and display the results allowing detailed search using some categories.
 
-![screenshot](./src/screenshot.png)
+## Images & Video
+
+- Images
+
+![screenshot](./app-screenshot.jpg)
+
+- Video
+
+https://www.loom.com/share/4e825ccb75224b069b1cdaac5b99ea15
 
 ## Built With
 
@@ -14,6 +22,7 @@ This is a React/Redux capstone project build as a mobile web application to chec
 - JavaScript
 - React (CRA)
 - Redux
+- Tailwind.css
 
 ## Live Demo (if available)
 
@@ -76,6 +85,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments 🤝
 
+- Chess data provided by [narrativa.com](https://api.covid19tracking.narrativa.com/api)
+- Original design by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 - Microverse Curriculum
 
 ## 📝 License
