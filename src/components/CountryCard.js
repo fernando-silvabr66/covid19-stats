@@ -23,7 +23,7 @@ function CountryCard({ data, index }) {
   return (
     <Link
       to={`/countries/${id}`}
-      className={`${classCurrent} transition duration-300 flex flex-col justify-end aspect-square bg-pink-600 hover:shadow hover:-translate-y-1 p-2 text-right m-2 relative`}
+      className={`${classCurrent} transition duration-300 flex flex-col justify-end aspect-square bg-pink-600 hover:shadow hover:-translate-y-1 p-2 text-right m-2 relative rounded-xl`}
     >
       <div
         className="absolute inset-2 bottom-8 z-0 opacity-20"
@@ -34,10 +34,10 @@ function CountryCard({ data, index }) {
           backgroundPosition: 'center',
         }}
       />
-      <h2 className="font-bold text-2xl uppercase leading-none z-10">
+      <h2 className="font-bold text-lg lg:text-xl uppercase leading-none z-10">
         {name}
       </h2>
-      <p className="text-lg z-10">{stat}</p>
+      <p className="text-sm lg:text-lg z-10">{stat}</p>
     </Link>
   );
 }

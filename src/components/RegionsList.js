@@ -34,7 +34,7 @@ function RegionsList({ countryName }) {
         <div className="p-8 grid place-content-center">No regional data available!</div>
       )}
       {status === 'fetched' && (
-        <ul className="flex flex-col">
+        <ul className="p-2 lg:p-6 flex flex-col">
           {data.map((region, index) => (
             <RegionsItem key={region.id} region={region} index={index} />
           ))}

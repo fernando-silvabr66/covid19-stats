@@ -16,7 +16,7 @@ function RegionsItem({ region, index }) {
   }, []);
 
   return (
-    <li className={`${classCurrent} transition duration-300 flex items-center gap-3 px-2 py-4 odd:bg-pink-600 text-lg`}>
+    <li className={`${classCurrent} transition duration-300 flex items-center rounded-lg lg:gap-3 px-2 py-4 odd:bg-pink-600 text-lg`}>
       <p className="grow">{region.name}</p>
       <span>
         {region.stat}
