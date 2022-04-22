@@ -69,6 +69,9 @@ function CountryPage() {
             </div>
           </div>
         </div>
+        <div className="text-center pb-2 lg:text-lg inline-block bg-transparent">
+          Source: John Hopkins University
+        </div>
       </div>
       <div className="bg-pink-500 grow rounded-3xl border border-pink-600 w-full max-w-2xl mx-auto">
         <div className="p-2 text-center uppercase font-bold">Region/State/City</div>

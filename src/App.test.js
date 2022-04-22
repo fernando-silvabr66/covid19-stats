@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import store from './redux/configuteStore';
+import store from './redux/configureStore';
 import App from './App';
 
 const todayDate = (new Date()).toISOString().split('T')[0];
@@ -55,14 +55,14 @@ const MockedApp = () => (
 
 it('renders site title', () => {
   render(<MockedApp />);
-  const siteTitle = screen.getByText(/Covid Watch/i);
+  const siteTitle = screen.getByText(/Covid-19 Statistics/i);
   expect(siteTitle).toBeInTheDocument();
 });
 
 describe('interaction test', () => {
   it('shows countries list by default', () => {
     render(<MockedApp />);
-    const countryPageTitle = screen.getByText('Stat by countries');
+    const countryPageTitle = screen.getByText('Statistics by Country');
     const franceTile = screen.getByRole('link', { name: /france/i });
 
     expect(countryPageTitle).toBeInTheDocument();

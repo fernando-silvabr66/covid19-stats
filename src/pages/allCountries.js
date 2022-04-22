@@ -34,7 +34,7 @@ function ShowAllCountries() {
         />
         <div className="z-10 flex flex-col gap-6">
           <h2 className="text-center lg:text-3xl">
-            Covid-19 confirmed cases
+            Covid-19 confirmed cases of today
           </h2>
           <input
             type="text"
@@ -50,7 +50,7 @@ function ShowAllCountries() {
         </div>
       </div>
       <div className="bg-pink-500 grow rounded-xl border border-pink-600">
-        <div className="p-2 pt-4 lg:text-xl text-center uppercase font-bold">Statistics by country</div>
+        <div className="p-2 pt-4 lg:text-xl text-center uppercase font-bold">Statistics by Country</div>
         <CountriesList searchTerm={searchTerm} />
         <div className="h-4" />
       </div>

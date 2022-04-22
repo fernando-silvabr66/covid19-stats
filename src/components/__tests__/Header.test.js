@@ -10,6 +10,6 @@ const MockedHeader = () => (
 
 it('shows title', () => {
   render(<MockedHeader />);
-  const title = screen.getByRole('heading', { name: /Covid Watch/i });
+  const title = screen.getByRole('heading', { name: /Covid-19 Statistics/i });
   expect(title).toBeVisible();
 });
