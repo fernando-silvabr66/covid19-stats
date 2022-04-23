@@ -24,9 +24,11 @@ https://www.loom.com/share/4e825ccb75224b069b1cdaac5b99ea15
 - Redux
 - Tailwind.css
 
-## Live Demo (if available)
+## Live Demo
 
-To get a local copy up and running follow these simple example steps.
+- https://lively-cascaron-25017c.netlify.app/
+
+To get a local copy up and running follow these simple example steps:
 
 ### Prerequisites
 
